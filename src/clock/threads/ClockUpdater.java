@@ -17,6 +17,12 @@ public class ClockUpdater extends Thread {
     JLabel label;
     int period;
 
+    
+    /**
+     * 
+     * @param label - ΤΟ Jlabel προς ανανέωση
+     * @param period - Η περίοδος ανανέωσης σε millisecond
+     */
     public ClockUpdater(JLabel label, int period) {
         this.label = label;
         this.period = period;
